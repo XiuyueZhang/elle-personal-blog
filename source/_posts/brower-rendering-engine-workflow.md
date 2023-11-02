@@ -44,22 +44,3 @@ Several factors in the rendering engine's workflow can impact rendering efficien
 
 6. **Compositing Layer Usage**: While compositing layers can enhance performance, overusing them can lead to increased memory usage and complexity.
 
-
-# Factors Affecting Rendering Efficiency
-
-In the workflow of a rendering engine, several factors can significantly impact rendering efficiency:
-
-1. **Complex DOM Structure**: If a web page has an overly complex DOM structure, the time required for parsing and constructing the render tree will increase, consequently slowing down the rendering speed.
-
-2. **Large CSS Files**: Large CSS files may demand more time for parsing and constructing the CSS Object Model (CSSOM), especially in low-bandwidth or high-latency network environments.
-
-3. **Frequent Reflows and Repaints**: User interactions or dynamic changes to page content can trigger layout and painting operations. Frequent reflows and repaints can lead to performance issues.
-
-4. **Unreasonable Image Usage**: Oversized or non-optimized images can extend download times and rendering durations.
-
-5. **JavaScript Execution**: The execution of JavaScript code can potentially block the rendering process. Therefore, optimizing JavaScript execution is a crucial step in enhancing rendering efficiency.
-
-6. **Excessive Use of Compositing Layers**: While compositing layers can enhance performance, excessive reliance on them can increase memory usage and page complexity.
-
-Understanding and addressing these factors can help improve the efficiency of web page rendering, resulting in a better user experience with faster load times and smoother interactions.
-
